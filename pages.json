@@ -1,14 +1,49 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-ui基础项目"
-		}
+		"path": "pages/home/home",
+		"style": {}
+	}, {
+		"path": "pages/cart/cart",
+		"style": {}
+	}, {
+		"path": "pages/news/news",
+		"style": {}
+	}, {
+		"path": "pages/members/members",
+		"style": {}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "uni商城",
 		"navigationBarBackgroundColor": "#007AFF",
 		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"selectedColor": "#007AFF",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png"
+			},
+			{
+				"text": "资讯",
+				"pagePath": "pages/news/news",
+				"iconPath": "static/icon/news.png",
+				"selectedIconPath": "static/icon/news_active.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/cart.png",
+				"selectedIconPath": "static/icon/cart_active.png"
+			},
+			{
+				"text": "会员",
+				"pagePath": "pages/members/members",
+				"iconPath": "static/icon/members.png",
+				"selectedIconPath": "static/icon/members_active.png"
+			}
+		]
 	}
 }
