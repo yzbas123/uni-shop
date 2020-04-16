@@ -11,7 +11,27 @@
 	}, {
 		"path": "pages/members/members",
 		"style": {}
-	}],
+	}    ,{
+            "path" : "pages/goods/goods",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni商城",
