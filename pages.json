@@ -1,37 +1,45 @@
 {
-	"pages": [{
-		"path": "pages/home/home",
-		"style": {}
-	}, {
-		"path": "pages/cart/cart",
-		"style": {}
-	}, {
-		"path": "pages/news/news",
-		"style": {}
-	}, {
-		"path": "pages/members/members",
-		"style": {}
-	}    ,{
-            "path" : "pages/goods/goods",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/contact/contact",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/pics/pics",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/videos/videos",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/detail/detail",
-            "style" : {}
-        }
-    ],
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {}
+		},
+		{
+			"path": "pages/members/members",
+			"style": {}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/contact/contact",
+			"style": {}
+		},
+		{
+			"path": "pages/pics/pics",
+			"style": {}
+		},
+		{
+			"path": "pages/videos/videos",
+			"style": {}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {}
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni商城",
@@ -40,7 +48,8 @@
 	},
 	"tabBar": {
 		"selectedColor": "#007AFF",
-		"list": [{
+		"list": [
+			{
 				"text": "首页",
 				"pagePath": "pages/home/home",
 				"iconPath": "static/icon/home.png",
