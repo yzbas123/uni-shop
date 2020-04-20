@@ -1,6 +1,5 @@
 {
-	"pages": [
-		{
+	"pages": [{
 			"path": "pages/home/home",
 			"style": {}
 		},
@@ -29,7 +28,9 @@
 		},
 		{
 			"path": "pages/pics/pics",
-			"style": {}
+			"style": {
+				"navigationBarTitleText": "社区图片"
+			}
 		},
 		{
 			"path": "pages/videos/videos",
@@ -48,8 +49,7 @@
 	},
 	"tabBar": {
 		"selectedColor": "#007AFF",
-		"list": [
-			{
+		"list": [{
 				"text": "首页",
 				"pagePath": "pages/home/home",
 				"iconPath": "static/icon/home.png",
