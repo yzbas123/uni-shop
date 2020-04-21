@@ -40,7 +40,11 @@
 			"path": "pages/detail/detail",
 			"style": {}
 		}
-	],
+	    ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni商城",
